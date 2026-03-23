@@ -1,0 +1,8 @@
+a=int(input("ENTER A FIRST NUMBER"))
+b=int(input("ENTER A SECOND NUMBER"))
+print("-----------SWAP TWO NUMBERS WITHOUT USING THIRD VARIABLE----------------")
+print(f"before swaping:{a,b}") #befor swapping
+b=a+b 
+a=b-a
+b=b-a
+print(f"After swapping :{a,b}")#after swappin
