@@ -1,0 +1,14 @@
+# convert seconds to hours, minutes, seconds
+a=int(input("Enter a number of seconds: "))
+b=a//3600
+c=b%a*3600
+d=a-c
+e=d//60
+f=e%d*60
+g=d-f
+
+print(f"Convert seconds to hours, minutes, seconds: {a} seconds = {b} hours, {e} minutes, {g} seconds")#convert seconds to hours, minutes, seconds
+
+o/p
+  Enter a number of seconds: 3670 
+Convert seconds to hours, minutes, seconds: 3670 seconds = 1 hours, 1 minutes, 10 seconds
