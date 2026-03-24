@@ -1,0 +1,5 @@
+#BMI CALCULATOR
+w=float(input("enter the weight of th person in kg: "))
+h=float(input("enter the height of the person in m: "))
+BMI=w/(h**2)
+print(f"BMI CALCULATION OF A PERSON:{BMI}")
