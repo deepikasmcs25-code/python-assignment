@@ -1,0 +1,5 @@
+n=int(input("enter first number"))
+m=int(input("enter second number"))
+a=n//m
+b=n-m*a
+print(f"quotient{a},reminder{b}) #finding reminder of a number without using modulus operator
