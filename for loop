@@ -1,0 +1,9 @@
+
+n=int(input("enter a number: "))
+for i in range(n+1):
+    print(i,end=" ")#Print numbers from 1 to N
+
+n=int(input("enter a number: "))
+for i in range(10):
+    n=n-1
+    print(n,end=" ")#Print numbers from N to 1
